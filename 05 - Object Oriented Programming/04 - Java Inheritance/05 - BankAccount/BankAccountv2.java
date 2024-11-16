@@ -8,11 +8,13 @@ public class BankAccountv2 {
     }
 
     void deposit(double amount) {
+        System.out.println("Deposited " + amount + " to " + accountNumber);
         this.balance += amount;
     }
 
     void withdraw(double amount) {
         if(balance >= amount) {
+            System.out.println("Withdrawn " + amount + " from " + accountNumber);
             this.balance -= amount;
         }
         else {
