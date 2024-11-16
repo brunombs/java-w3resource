@@ -1,5 +1,5 @@
 public class Truck extends Vehicle {
-    private double cargoCapacity;
+    private final double cargoCapacity;
 
     public Truck(String name, String model, int year, double fuelEfficiency, double cargoCapacity) {
         super(name, model, year, fuelEfficiency);

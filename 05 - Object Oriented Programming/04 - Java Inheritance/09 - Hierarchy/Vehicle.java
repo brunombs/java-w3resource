@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public abstract class Vehicle {
     String name;
     String model;
@@ -15,18 +13,6 @@ public abstract class Vehicle {
 
     public String getName() {
         return name;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public double getFuelEfficiency() {
-        return fuelEfficiency;
     }
 
     abstract double maxSpeed();
