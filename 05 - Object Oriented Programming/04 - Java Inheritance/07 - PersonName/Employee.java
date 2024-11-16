@@ -1,6 +1,6 @@
 public class Employee extends Person {
-    private int employeeID;
-    private String jobTitle;
+    private final int employeeID;
+    private final String jobTitle;
 
     public Employee(String firstName, String lastName, int employeeID, String jobTitle) {
         super(firstName, lastName);
