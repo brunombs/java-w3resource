@@ -1,6 +1,6 @@
 public class BankAccount {
-    private double balance;
-    private int accountNumber;
+    final private double balance;
+    final private int accountNumber;
 
     public double getBalance() {
         return balance;
