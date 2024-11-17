@@ -1,6 +1,6 @@
 public class Rectangle {
-    private double length;
-    private double width;
+    final private double length;
+    final private double width;
 
     public double getLength() {
         return length;
