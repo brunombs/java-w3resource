@@ -5,13 +5,14 @@ package Person;
 public class Main {
     public static void main(String[] args) {
         Person person = new Person();
+        Person person2 = new Person();
         person.setName("John Doe");
         person.setAge(23);
         person.setCountry("Ireland");
-
-        System.out.println("----------PERSON INFO----------");
-        System.out.println("Person Name: " + person.getName());
-        System.out.println("Person Age: " + person.getAge());
-        System.out.println("Person Country: " + person.getCountry());
+        person2.setName("Jane Doe");
+        person2.setAge(22);
+        person2.setCountry("United Kingdom");
+        person.printDetails();
+        person2.printDetails();
     }
 }

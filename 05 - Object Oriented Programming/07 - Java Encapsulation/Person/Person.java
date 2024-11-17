@@ -28,4 +28,11 @@ public class Person {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    void printDetails() {
+        System.out.println("----------PERSON INFO----------");
+        System.out.println("Person Name: " + this.getName());
+        System.out.println("Person Age: " + this.getAge());
+        System.out.println("Person Country: " + this.getCountry());
+    }
 }
