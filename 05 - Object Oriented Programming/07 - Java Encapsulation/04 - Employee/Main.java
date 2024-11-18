@@ -3,9 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         Employee employee = new Employee(1, "John", 500.995);
-        System.out.println("Employee Name: " + employee.getName());
-        System.out.println("Employee Salary: " + employee.getSalary());
-        System.out.println("Employee ID: " + employee.getId());
-        System.out.println("Employee formatted salary: " + employee.getFormattedSalary());
+        Employee employee2 = new Employee(2, "Jane", 4500.33);
+        employee.printDetails();
+        employee2.printDetails();
     }
 }

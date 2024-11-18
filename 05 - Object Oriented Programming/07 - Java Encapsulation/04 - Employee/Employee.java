@@ -24,4 +24,12 @@ public class Employee {
         this.name = name;
         this.salary = salary;
     }
+
+    void printDetails() {
+        System.out.println("*** Employee Details ***");
+        System.out.println("Employee Name: " + getName());
+        System.out.println("Employee Salary: " + getSalary());
+        System.out.println("Employee ID: " + getId());
+        System.out.println("Employee formatted salary: " + getFormattedSalary());
+    }
 }
