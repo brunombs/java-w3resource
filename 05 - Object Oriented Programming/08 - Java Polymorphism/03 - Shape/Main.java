@@ -2,12 +2,12 @@
 
 public class Main {
     public static void main(String[] args) {
-        Circle circle = new Circle(5);
-        Rectangle rectangle = new Rectangle(5, 6);
-        Triangle triangle = new Triangle(6, 7, 9);
+        Circle circle = new Circle(6.4);
+        Rectangle rectangle = new Rectangle(7.5, 6.2);
+        Triangle triangle = new Triangle(6, 7, 9.3);
 
-        circle.calculateArea();
-        rectangle.calculateArea();
-        triangle.calculateArea();
+        System.out.println("Circle area: " + circle.calculateArea());
+        System.out.println("Rectangle area: " + rectangle.calculateArea());
+        System.out.println("Triangle area: " + triangle.calculateArea());
     }
 }
