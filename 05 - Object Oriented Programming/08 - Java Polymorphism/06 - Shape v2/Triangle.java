@@ -1,7 +1,7 @@
 public class Triangle extends Shape {
-    private double a;
-    private double b;
-    private double c;
+    private final double a;
+    private final double b;
+    private final double c;
 
     @Override
     double getArea() {
