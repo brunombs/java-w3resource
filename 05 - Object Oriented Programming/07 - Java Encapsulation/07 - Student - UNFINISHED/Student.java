@@ -3,7 +3,7 @@ import java.util.*;
 public class Student {
     private int studentID;
     private String studentName;
-    private List grades;
+    private List<Double> grades;
 
     public Student(int studentID, String studentName) {
         this.studentID = studentID;
@@ -28,12 +28,12 @@ public class Student {
 
     public void addGrade(double grade) {
         if (grades == null) {
-            grades = new ArrayList();
+            grades = new ArrayList<>();
         }
         grades.add(grade);
     }
 
-    public List getGrades() {
+    public List<Double> getGrades() {
         return grades;
     }
 }

@@ -9,6 +9,8 @@ public class Main {
         student.addGrade(4.7);
         student.addGrade(3.9);
         System.out.println("Student grade: " + student.getGrades());
+        student.setStudentID(2);
+        student.setStudentName("Johnny Doe");
 
     }
 }
