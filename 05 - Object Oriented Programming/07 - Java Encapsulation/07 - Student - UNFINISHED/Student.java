@@ -1,7 +1,9 @@
+import java.util.*;
+
 public class Student {
     private int studentID;
     private String studentName;
-    private double grade;
+    private List grades;
 
     public Student(int studentID, String studentName) {
         this.studentID = studentID;
@@ -25,6 +27,13 @@ public class Student {
     }
 
     public void addGrade(double grade) {
-        this.grade += grade;
+        if (grades == null) {
+            grades = new ArrayList();
+        }
+        grades.add(grade);
+    }
+
+    public List getGrades() {
+        return grades;
     }
 }

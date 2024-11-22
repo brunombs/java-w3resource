@@ -5,7 +5,10 @@ public class Main {
         Student student = new Student(1, "John Doe");
         System.out.println("Student ID: " + student.getStudentID());
         System.out.println("Student Name: " + student.getStudentName());
-        System.out.println("Student grade: " + student.g);
         student.addGrade(5.4);
+        student.addGrade(4.7);
+        student.addGrade(3.9);
+        System.out.println("Student grade: " + student.getGrades());
+
     }
 }
