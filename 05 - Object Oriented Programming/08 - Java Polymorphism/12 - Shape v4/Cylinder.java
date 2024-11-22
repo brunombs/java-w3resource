@@ -1,5 +1,5 @@
 public class Cylinder extends Circle {
-    private double height;
+    final private double height;
 
     public Cylinder(double radius, double height) {
         super(radius);
