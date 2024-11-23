@@ -9,5 +9,13 @@ public class Main {
         System.out.println("Book price: " + book.getPrice());
         book.applyDiscount(10);
         System.out.println("Book price with applied discount: " + book.getPrice());
+
+        Book book2 = new Book();
+        book2.setTitle("Java Encapsulation new version");
+        book2.setPrice(200);
+        System.out.println("Book title: " + book2.getTitle());
+        System.out.println("Book price: " + book2.getPrice());
+        book2.applyDiscount(5);
+        System.out.println("Book price with applied discount: " + book2.getPrice());
     }
 }
