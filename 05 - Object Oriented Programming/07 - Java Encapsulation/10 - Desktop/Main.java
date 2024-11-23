@@ -3,9 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         Desktop desktop = new Desktop("Apple", 8);
-        desktop.displayInfo();
+        System.out.println("Brand: " + desktop.getBrand());
+        System.out.println("Ram Size: " + desktop.getRamSize());
         desktop.upgradeRam(8);
         System.out.println("Computer after RAM upgrade: ");
-        desktop.displayInfo();
+        System.out.println("Brand: " + desktop.getBrand());
+        System.out.println("Ram Size: " + desktop.getRamSize());
     }
 }
