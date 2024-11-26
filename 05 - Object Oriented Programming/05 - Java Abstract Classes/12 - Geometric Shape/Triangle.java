@@ -1,7 +1,7 @@
 public class Triangle extends GeometricShape {
-    private double a;
-    private double b;
-    private double c;
+    final private double a;
+    final private double b;
+    final private double c;
 
     public Triangle(double a, double b, double c) {
         this.a = a;

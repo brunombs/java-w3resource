@@ -1,5 +1,5 @@
 public class Square extends GeometricShape {
-    private double sideLength;
+    final private double sideLength;
 
     public Square(double sideLength) {
         this.sideLength = sideLength;
