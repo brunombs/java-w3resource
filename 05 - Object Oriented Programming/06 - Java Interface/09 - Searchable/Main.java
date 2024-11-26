@@ -3,11 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         Document document = new Document("Learning Java");
-        System.out.println("There is the word 'Python' in the document? " + document.search("Python"));
-        System.out.println("There is the word 'Java' in the document? " + document.search("Java"));
+        System.out.println("Is the word 'Python' in the document? " + document.search("Python"));
+        System.out.println("Is the word 'Java' in the document? " + document.search("Java"));
 
         WebPage webpage = new WebPage("GitHub");
-        System.out.println("There is the word 'Hello' in the webpage? " + webpage.search("Hello"));
-        System.out.println("There is the word 'GitHub' in the webpage? " + webpage.search("GitHub"));
+        System.out.println("Is the word 'Hello' in the webpage? " + webpage.search("Hello"));
+        System.out.println("Is the word 'GitHub' in the webpage? " + webpage.search("GitHub"));
     }
 }
