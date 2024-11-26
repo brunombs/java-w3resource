@@ -1,6 +1,6 @@
 public class Triangle implements Shape {
-    private double base;
-    private double height;
+    final private double base;
+    final private double height;
 
     public Triangle(double base, double height) {
         this.base = base;
