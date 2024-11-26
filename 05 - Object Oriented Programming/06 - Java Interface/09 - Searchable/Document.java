@@ -1,5 +1,5 @@
 public class Document implements Searchable {
-    private String content;
+    private final String content;
 
     public Document(String content) {
         this.content = content;

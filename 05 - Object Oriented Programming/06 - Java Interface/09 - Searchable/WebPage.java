@@ -1,5 +1,5 @@
 public class WebPage implements Searchable {
-    private String title;
+    private final String title;
 
     public WebPage(String title) {
         this.title = title;
