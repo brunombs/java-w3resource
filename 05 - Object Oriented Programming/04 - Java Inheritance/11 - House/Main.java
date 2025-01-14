@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
         House house1 = new House(5, 140, "Street 2");
 
-        System.out.println("House price: " + house1.calculatePrice(1300));
+        System.out.println("House with " + house1.getNumberOfRooms() + " rooms located on " + house1.getAddress().toLowerCase() + ", price: " + house1.calculatePrice(1300));
     }
 }

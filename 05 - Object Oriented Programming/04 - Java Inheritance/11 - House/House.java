@@ -1,7 +1,7 @@
 public class House {
-    private int numberOfRooms;
-    private double area;
-    private String address;
+    private final int numberOfRooms;
+    private final double area;
+    private final String address;
 
     public House(int numberOfRooms, double area, String address) {
         this.numberOfRooms = numberOfRooms;
