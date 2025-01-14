@@ -13,24 +13,12 @@ public class House {
         return numberOfRooms;
     }
 
-    public void setNumberOfRooms(int numberOfRooms) {
-        this.numberOfRooms = numberOfRooms;
-    }
-
     public double getArea() {
         return area;
     }
 
-    public void setArea(double area) {
-        this.area = area;
-    }
-
     public String getAddress() {
         return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 
     public double calculatePrice(double pricePerSquareMeter) {
