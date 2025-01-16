@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Input number of rows: ");
         int rows = scanner.nextInt();
 
-        for (int i = 0; i < rows; i++) {
+        for (int i = 0; i <= rows; i++) {
             System.out.println(i);
         }
     }
